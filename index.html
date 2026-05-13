@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mood Wallpaper Generator</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="particles">
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+
+    <div class="container">
+        <div class="emoji">✨</div>
+
+        <h1>Mood Wallpaper Generator</h1>
+
+        <p class="subtitle">Choose your mood</p>
+
+        <div class="buttons">
+
+            <button onclick="changeMood('happy')">
+                😊 Happy
+            </button>
+
+            <button onclick="changeMood('calm')">
+                🌊 Calm
+            </button>
+
+            <button onclick="changeMood('focus')">
+                🎯 Focus
+            </button>
+
+            <button onclick="changeMood('lonely')">
+                🌙 Lonely
+            </button>
+
+        </div>
+
+        <div class="card">
+
+            <h2 id="moodTitle">Your Mood</h2>
+
+            <p id="quote">
+                Click a mood to generate wallpaper vibes.
+            </p>
+
+        </div>
+
+    </div>
+
+   
+    <script src="script.js"></script>
+
+</body>
+</html>
